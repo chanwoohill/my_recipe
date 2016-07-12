@@ -1,0 +1,149 @@
+body {
+	background-color: #e2cd90
+}
+
+h1 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #e7ff90;
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	color: #e7ff90;
+}
+
+h3 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #c7853f;
+}
+
+img {
+	border-radius: 25px;
+	height: 250px;
+	width: 300px;
+	margin-left: 20px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	transition: all 0.4s ease-in-out 0.5s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out 0.5s;
+}
+
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #c7853f;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul{
+	margin: -10px;
+	list-style-type: none;
+}
+
+ul li {
+	padding: 5px;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #6d72b9;
+}
+
+#left{
+	float: left;
+	width: 45%;
+	
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1em;
+}
+
+#right{
+	float: right;
+	width: 45%;
+	
+}
+
+table {
+	border: #000000 1px solid;
+	background-color: #6d72b9;
+	float: right;
+	margin-right: 50px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+td {
+	height: 150px;
+	width: 150px;
+}
+
+td img {
+	height: 175px;
+	width: 150px;
+	box-shadow: none;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: bold;
+	color: #c7853f;
+}
+
+#bottom_left{
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+	border-bottom-right-radius: 15px;
+}
+
+#button{
+	display: inline-block;
+	height: 50px;
+	width: 70px;
+	background-color: #cc0000;
+	font-family: arial;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #c7853f;
+}
+
+.active{
+	background-color:#556677;
+}
+
+.highlight{
+	background: #F39814; color: white;
+}
+
